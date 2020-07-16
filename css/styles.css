@@ -111,3 +111,31 @@ header{
     max-width: 370px;
     margin: 0 auto;
 }
+
+.nosotros > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.equipo {
+    width: 100%;
+    max-width: 570px;
+}
+
+.equipo img {
+    width: 100%;
+}
+
+.conocenos {
+    text-align: center;
+    padding: 15px 0px;
+    max-width: 570px;
+}
+
+.conocenos p:nth-child(1){
+    font-size: 14px;
+    color: #3c1c22;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a2a2a2;
+}
