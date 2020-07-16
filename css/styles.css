@@ -89,3 +89,25 @@ header{
     background-color: rgba(0,0,0,0.47);
     margin-top: 35px;
 }
+
+.bienvenida {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.bienvenida h3 {
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.bienvenida p {
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.7em;
+    max-width: 370px;
+    margin: 0 auto;
+}
