@@ -133,9 +133,33 @@ header{
     max-width: 570px;
 }
 
-.conocenos p:nth-child(1){
+.conocenos p:nth-child(1) {
     font-size: 14px;
     color: #3c1c22;
     padding-bottom: 20px;
     border-bottom: 1px solid #a2a2a2;
+}
+
+.conocenos h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: royalblue;
+    font-size: 18px;
+}
+
+.conocenos p:nth-child(3) {
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.conocenos p:nth-child(4) {
+    color: #646464;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.conocenos a {
+    color: royalblue;
+    font-size: 15px;
 }
