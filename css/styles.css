@@ -2,11 +2,12 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    color: var(--text-color);
 }
 
 :root {
     --primary-color: #F2B5D4;
-    --seconday-color: #F7D6E0;
+    --secondary-color: #F7D6E0;
     --light-color: #EFF7F6;
     --dark-color: #623B5A;
     --text-color: #1D1E18;
@@ -172,7 +173,7 @@ header{
 .conocenos h3 {
     padding-top: 20px;
     padding-bottom: 30px;
-    color: royalblue;
+    color: var(--primary-color);
     font-size: 18px;
 }
 
@@ -189,17 +190,17 @@ header{
 }
 
 .conocenos a {
-    color: royalblue;
+    color: var(--primary-color);
     font-size: 15px;
 }
 
 .top-footer {
-    background-color: slateblue;
-    height: 25px;
+    background-color: var(--secondary-color);
+    height: 10px;
 }
 
 .center-footer {
-    background-color: royalblue;
+    background-color: var(--light-color);
 }
 
 .center-footer .contenedor {
@@ -212,7 +213,7 @@ header{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 35px;
-    color: white;
+    color: var(--text-color);
     max-width: 270px;
     margin: 0 auto;
 }
@@ -227,14 +228,18 @@ header{
 }
 
 .bottom-footer {
-    background-color: slateblue;
+    background-color: var(--secondary-color);
     height: 25px;
 }
 
 .bottom-footer p {
-    color: #7a7a7a;
+    color: var(--dark-color);
     font-size: 12px;
     text-align: center;
+}
+
+.widget img {
+    width: 100%;
 }
 
 @media all (min-width: 769px){
@@ -248,4 +253,7 @@ header{
         padding-left: 30px;
         text-align: left;
         }
+    .widget {
+        width: 370px;
+    }
 }
