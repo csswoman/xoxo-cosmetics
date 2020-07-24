@@ -41,4 +41,4 @@ document.querySelectorAll('.dot-nav').forEach((element) => {
 
 setInterval(() => {
     show_slide(++slider_index)
-}, 2000);
+}, 4000);

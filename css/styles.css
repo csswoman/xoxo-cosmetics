@@ -8,6 +8,7 @@
 :root {
     --primary-color: #F2B5D4;
     --secondary-color: #F7D6E0;
+    --banner-color: #faebf0;
     --light-color: #EFF7F6;
     --dark-color: #623B5A;
     --text-color: #1D1E18;
@@ -15,14 +16,14 @@
 
 .contenedor {
     width: 100%;
-    /* max-width: 1170px; */
+    background-color: white;
     margin: auto;
 }
 
 header{
     width: 100%;
     height: 130px;
-    background-color: var(--light-color);
+    background-color: var(--banner-color);
 }
 
 .logo {
@@ -230,6 +231,7 @@ img {
 
 .nosotros {
     padding: 80px;
+    background-color: white;
 }
 
 .nosotros > .contenedor {
@@ -245,13 +247,13 @@ img {
 
 .equipo img {
     width: 100%;
-    border-radius: 20px;
 }
 
 .conocenos {
     text-align: center;
     padding: 15px 0px;
     max-width: 570px;
+    background-color: white;
 }
 
 .conocenos p:nth-child(1) {
